@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Erwina Santos - Personal portfolio and web development projects">
+    <title>Erwina Santos | My Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript file -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Erwina<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="nav-contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                    <h1>Hello, I'm <span>Erwina Santos</span></h1>
+                    <h2>Aspiring Web Developer</h2>
+
+                    <p class="hero-description">
+                        I'm a Computer Engineering student who enjoys creating
+                        beautiful, functional, and user-friendly websites.
+                        Welcome to my personal portfolio!
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/Erwina"
+                           target="_blank" rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                        <a href="#about">Learn About Me ↓</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <!-- Add your photo as profile.jpg in this folder -->
+                    <div class="photo-frame">
+                        <img src="profile.jpg" alt="Photo of Erwina Santos">
+                             alt="Photo of Erwina Santos"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                        <div class="photo-placeholder">
+                            <span>ES</span>
+                            <p>Add your photo here</p>
+                            <small>Save your picture as profile.jpg</small>
+                        </div>
+                    </div>
+                    <div class="decor decor-one"></div>
+                    <div class="decor decor-two"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                    <p>A little introduction about myself.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">♡</div>
+                    <div>
+                        <h3>Who Am I?</h3>
+                        <p>
+                            Hi! I'm Erwina Santos, a Bachelor of Science in
+                            Computer Engineering student at ICCT Colleges.
+                            I'm passionate about technology,
+                            and learning how to build websites.
+                        </p>
+                        <p>
+                            I enjoy exploring new programming skills and
+                            turning ideas into real projects. My goal is to
+                            continue improving my skills and become a
+                            successful web developer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section section-soft" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I WORK WITH</p>
+                    <h2>My <span>Skills</span></h2>
+                    <p>Technologies I am learning and using.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon html-icon">5</div>
+                        <h3>HTML</h3>
+                        <p>Creating website structures and content.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon css-icon">3</div>
+                        <h3>CSS</h3>
+                        <p>Styling websites with colors and layouts.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon js-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Adding interactive website features.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon php-icon">PHP</div>
+                        <h3>PHP</h3>
+                        <p>Learning server-side web development.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon mysql-icon">DB</div>
+                        <h3>MySQL</h3>
+                        <p>Working with databases and stored data.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon git-icon">GH</div>
+                        <h3>GitHub</h3>
+                        <p>Sharing code and managing projects.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY WORK</p>
+                    <h2>Featured <span>Projects</span></h2>
+                    <p>A few projects you can showcase in your portfolio.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-art project-art-one">
+                            <span>01</span>
+                            <div>♡</div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-type">WEB DEVELOPMENT</p>
+                            <h3>Personal Portfolio</h3>
+                            <p>
+                                A responsive personal website that introduces
+                                me, showcases my skills, and presents my work.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span><span>CSS</span><span>JS</span>
+                            </div>
+                            <a class="project-link"
+                               href="https://github.com/Erwina"
+                               target="_blank" rel="noopener noreferrer">
+                                View on GitHub ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-art project-art-two">
+                            <span>02</span>
+                            <div>✿</div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-type">DATABASE PROJECT</p>
+                            <h3> Creating web application </h3>
+                            <p>
+                                A sample system that track the people in community </track>.
+                            </p>
+                            <div class="tags">
+                                <span>PHP</span><span>MySQL</span><span>CSS</span>
+                            </div>
+                            <a class="project-link"
+                               href="https://github.com/Erwina"
+                               target="_blank" rel="noopener noreferrer">
+                                View on GitHub ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-art project-art-three">
+                            <span>03</span>
+                            <div>✧</div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-type">WEB DESIGN</p>
+                            <h3> Alaga Track </h3>
+                            <p>
+                                A dashboard concept for the people who help the 
+                                undestand very clear.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span><span>JavaScript</span><span>PHP</span>
+                            </div>
+                            <a class="project-link"
+                               href="https://github.com/Erwina"
+                               target="_blank" rel="noopener noreferrer">
+                                View on GitHub ↗
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="project-note">
+                    Note: These are sample project descriptions. Replace them
+                    with your actual work and individual repository links.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section section-soft" id="education">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY BACKGROUND</p>
+                    <h2>My <span>Education</span></h2>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <div>
+                        <p class="project-type">COLLEGE</p>
+                        <h3>ICCT Colleges</h3>
+                        <p class="degree">
+                            Bachelor of Science in Computer Engineering
+                        </p>
+                        <p>
+                            Studying computer engineering, programming,
+                            and technology-related subjects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Contact <span>Me</span></h2>
+                    <p>Have a question or want to work together? Send me a message!</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-details">
+                        <h3>Let's talk!</h3>
+                        <p>
+                            I'm happy to connect with fellow students,
+                            developers, and people interested in my work.
+                        </p>
+                        <div class="contact-item">
+                            <span>✉</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>your-email@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span>⌘</span>
+                            <div>
+                                <strong>GitHub</strong>
+                                <p>github.com/Erwina</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contact-form">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name"
+                               placeholder="Enter your name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="Enter your email" required>
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5"
+                                  placeholder="Write your message here..."
+                                  required></textarea>
+
+                        <button type="submit" class="btn btn-primary">
+                            Send Message ↗
+                        </button>
+
+                        <p class="form-note">
+                            This form opens your email application to send a message.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">Erwina<span>.</span></a>
+            <p>Made with ♡ by Erwina Santos</p>
+            <p>© <span id="year"></span> All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
